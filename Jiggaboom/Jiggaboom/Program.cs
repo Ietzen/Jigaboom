@@ -35,7 +35,7 @@ namespace ExampleAI_CS
                         break;
                     }
                 }
-                else 
+                else
                 {
                     var c = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
                     grid[c[1], c[0]] = 2;
