@@ -8,7 +8,7 @@ namespace Jigaboom.Grid
     class Grid
     {
         List<Pebble> pebbles = new List<Pebble>();
-        
+
         Pebble getPebbleByXY(int x, int y)
         {
             foreach(Pebble pebble in pebbles)
@@ -19,11 +19,6 @@ namespace Jigaboom.Grid
                 }
             }
             return null;
-        }
-
-        List<Pebble> getAdjasentPebbles(Pebble pebble)
-        {
-            if()
         }
     }
 }
