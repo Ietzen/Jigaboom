@@ -7,18 +7,30 @@ namespace Jigaboom.Grid
 {
     class Grid
     {
-        List<Pebble> pebbles = new List<Pebble>();
-
-        Pebble getPebbleByXY(int x, int y)
+        Dictionary pebbles = new Dictionary<Tuple<int, int>, int>();
+        int getPebbleByXY(int x, int y)
         {
-            foreach(Pebble pebble in pebbles)
-            {
-                if(pebble.X == x && pebble.Y == y)
-                {
-                    return pebble;
-                }
-            }
-            return null;
+           return pebbles[new Tuple(x,y)];
+        }
+
+        List<Tuple<int,int>> getAdjasentfreespots(Tuple<int,int> pebble)
+        {
+            List<Tuple<int, int>> returnedList = new List<Tuple<int, int>>();
+
+            if (pebbles[pebble.Item1 - 1, pebble.Item2] == 0)
+                returnedList.Add(pebbles[pebble.Item1 - 1, pebble.Item2]);
+            if (pebbles[pebble.Item1 +1, pebble.Item2] == 0)
+                returnedList.Add(pebbles[pebble.Item1 + 1, pebble.Item2]);
+            if (pebbles[pebble.Item1, pebble.Item2 - 1] == 0)
+                returnedList.Add(pebbles[pebble.Item1 , pebble.Item2 -1]);
+            if (pebbles[pebble.Item1, pebble.Item2 + 1] == 0)
+                returnedList.Add(pebbles[pebble.Item1, pebble.Item2 + 1]);
+            return returnedList;
+        }
+
+        Tuple<int,int> GetFreeAdjasentSpot(Pebble p)
+        {
+
         }
     }
 }
