@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jigaboom", "Jigaboom\Jigaboom.csproj", "{AA93C4D0-9C6E-4260-9580-3F45030684C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jiggaboom", "Jiggaboom\Jiggaboom.csproj", "{58551014-FB3E-4367-A8F4-AFFB6ADE9FD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AA93C4D0-9C6E-4260-9580-3F45030684C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA93C4D0-9C6E-4260-9580-3F45030684C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA93C4D0-9C6E-4260-9580-3F45030684C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA93C4D0-9C6E-4260-9580-3F45030684C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58551014-FB3E-4367-A8F4-AFFB6ADE9FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58551014-FB3E-4367-A8F4-AFFB6ADE9FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58551014-FB3E-4367-A8F4-AFFB6ADE9FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58551014-FB3E-4367-A8F4-AFFB6ADE9FD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E1720533-5937-4269-A2A8-807E314DD1E7}
+		SolutionGuid = {8E451DB5-4F00-4BB4-904B-105F8DC81EE9}
 	EndGlobalSection
 EndGlobal

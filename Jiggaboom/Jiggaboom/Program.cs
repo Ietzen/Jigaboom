@@ -18,7 +18,7 @@ namespace ExampleAI_CS
 
             var grid = new int[gridSize, gridSize];
 
-            for (int moveCount = 0; moveCount < (gridSize * gridSize); ++moveCount)
+            for (int moveCount = 0; moveCount < (gridSize* gridSize); ++moveCount)
             {
                 if ((moveCount % 2) == player)
                 {
@@ -35,7 +35,7 @@ namespace ExampleAI_CS
                         break;
                     }
                 }
-                else
+                else 
                 {
                     var c = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
                     grid[c[1], c[0]] = 2;
